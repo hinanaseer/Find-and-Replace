@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find and replace Using JS</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+
+<body>
+    <h1>FIND & REPLACE USING JAVASCRIPT</h1>
+    <div id="haystack">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ipsam quisquam odio incidunt mollitia temporibus
+        quis. Rerum, esse! A vel dicta itaque nemo quo nam inventore iure, expedita tempore quibusdam ipsa, illo aliquam
+        magnam doloremque iusto vero quam veritatis odit quod quia praesentium asperiores at corrupti dolores. Ipsam
+        enim numquam culpa? Tempore eum deserunt atque, reprehenderit dolore voluptatum ipsam laborum ad aspernatur
+        eveniet perferendis enim soluta adipisci tempora debitis earum quam quo odit, ipsum error veritatis ut
+        exercitationem dicta. Laborum deleniti fuga dolore assumenda ex natus consectetur saepe sint laboriosam ea
+        quidem ipsum explicabo similique dolorum obcaecati, corrupti debitis porro. Reiciendis, adipisci debitis?
+        Possimus illo optio ratione recusandae non delectus culpa! Assumenda, exercitationem expedita totam, porro
+        blanditiis nulla quaerat fugit ipsum saepe necessitatibus veniam. Facere maiores labore asperiores perspiciatis
+        quibusdam tenetur inventore similique quas at dignissimos numquam illum hic, saepe quia repellendus quasi quod
+        assumenda repellat! Aspernatur asperiores natus laborum necessitatibus cum rem praesentium voluptates illo
+        explicabo porro quasi, dolore sapiente fuga quidem? Deleniti debitis perspiciatis adipisci, repudiandae a
+        molestiae reprehenderit odio corrupti recusandae, nisi impedit nobis voluptas omnis quibusdam? Aut sint harum
+        ipsa, eum eligendi soluta ex est dolorum itaque autem maxime enim consectetur natus fuga molestiae odit
+        adipisci.
+    </div>
+    <br>
+    <table>
+        <tr>
+            <td>Find</td>
+            <td><input id="needle" name="needle" type="text"></td>
+        </tr>
+        <tr>
+            <td>Replacment</td>
+            <td><input id="replacement" name="replacement" type="text"></td>
+        </tr>
+    </table>
+    <input type="button" value="Find"
+        onClick="findMyText(document.getElementById('needle').value, document.getElementById('replacement').value);">
+        <input type="button" value="Replace"
+        onClick="findMyText(document.getElementById('needle').value, document.getElementById('replacement').value);">
+    
+    <script src="./assests/css/JS/app.js"></script>
+</body>
+
+</html>

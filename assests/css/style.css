@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(171, 236, 233);
+}
+h1{
+    color: orangered;
+    border: 2px solid greenyellow;
+    width: fit-content;
+    text-align: center;
+    margin-left: 5px;
+
+}
+#haystack{
+    font-weight: 500;
+    font-variant: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
